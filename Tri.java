@@ -7,7 +7,6 @@ public class Tri{
              m++; 
         }
         System.out.println();
-      
        }
    }
 }
