@@ -8,11 +8,17 @@ class x{
         System.out.println("Class Y");
     }
 }
+class z extends y{
+    void display2(){
+       System.out.println("Class z");
+    }
+}
  
  public class Inherit{
     public static void main(String[] args) {
-        y a=new y();
+        z a=new z();
         a.display();
         a.display1();
+        a.display2();
     }
 }
