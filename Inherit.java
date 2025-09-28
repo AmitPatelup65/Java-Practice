@@ -6,6 +6,7 @@ class x{
  class y extends x{
     void display1(){
         System.out.println("Class Y");
+        System.out.println("Class Y");
     }
 }
 class z extends y{
