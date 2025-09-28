@@ -11,6 +11,7 @@ class x{
 class z extends y{
     void display2(){
        System.out.println("Class z");
+       System.out.println("Class z");
     }
 }
  
