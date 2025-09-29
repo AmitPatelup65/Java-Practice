@@ -23,5 +23,6 @@ class z extends y{
         a.display1();
         a.display2();
         a.display2();
+        a.display2();
     }
 }
