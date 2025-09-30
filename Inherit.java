@@ -20,6 +20,7 @@ class z extends y{
     public static void main(String[] args) {
         z a=new z();
         a.display();
+        a.display();
         a.display1();
         a.display2();
         a.display2();
