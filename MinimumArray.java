@@ -2,7 +2,7 @@
 public class MinimumArray {
 
     public static void main(String[] args) {
-        int arr[] = {3, 1, 10, 2, 5};
+        int arr[] = {-3, 1, 10, -2, 5};
         int length = arr.length;
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
