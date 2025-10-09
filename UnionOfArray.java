@@ -16,13 +16,20 @@ public class UnionOfArray{
         }
         System.out.println("");
         for(int i=0;i<arr2.length;i++){
-         for(int j=0;j<arr1.length; j++){
-               if(union[i]!=arr2[j] && union[i]!=union[j]){
-                union[index]=arr2[j];
-                index++;
-            }
-         }
+
+             //  if(union[i]!=arr2[j] && union[i]!=union[j]){
+                union[index]=arr2[i];
+               index++;
+         //   }
+         
         }
+        for(int i=0;i<index;i++){
+            for (int j=1;j<index;j++){  
+                if(union[i]==union[j]){
+                  index--;
+                }
+            }
+        } 
       for(int i=0;i<10;i++){
            System.out.print(union[i]+" ");
         }
