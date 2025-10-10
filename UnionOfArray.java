@@ -33,5 +33,6 @@ public class UnionOfArray {
         for (int i = 0; i < nindex; i++) {
             System.out.print(result[i] + " ");
         }
+
     }
 }
