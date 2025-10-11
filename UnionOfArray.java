@@ -3,7 +3,7 @@ public class UnionOfArray {
 
     public static void main(String[] args) {
         int[] arr1 = {1, 2, 7, 4, 5};
-        int[] arr2 = {5, 6, 7, 4, 8};
+        int[] arr2 = {5, 6, 7, 4,4, 8};
         int[] union = new int[100];
         int[] result = new int[100];
         int[] intersect = new int[100];
@@ -23,6 +23,7 @@ public class UnionOfArray {
                 if(arr1[i]==arr2[j]){
                     intersect2[sect1]=arr1[i];
                     sect1++;
+                    break;
                 }
             }
         }
@@ -43,13 +44,16 @@ public class UnionOfArray {
                 nindex++;
             }
         }
-        for (int i = 0; i < sect1; i++) {
-            System.out.print(intersect2[i] + " ");
-        }
-        System.out.println("");
+       
+       
         System.out.print("The Union Of Array is : ");
         for (int i = 0; i < nindex; i++) {
             System.out.print(result[i] + " ");
+        }
+         System.out.println("");
+         System.out.print("The Intersection OF Array : ");
+         for (int i = 0; i < sect1; i++) {
+            System.out.print(+intersect2[i] + " ");
         }
 
     }
