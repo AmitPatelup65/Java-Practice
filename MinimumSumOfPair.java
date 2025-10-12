@@ -11,7 +11,6 @@ public class MinimumSumOfPair{
                 }
             }
          }
-         System.out.println(smin);
-         System.out.print (min);
+         System.out.println("The Minimum Sum Of Array : "+smin);
      }
 }
