@@ -15,8 +15,11 @@ public class KthElement{
               }
         }
         }
-             for(int i=0;i<arr.length;i++){
-                System.out.print (" "+arr[i]);
-             }
+        System.out.println("Enter The number to get kth maximum Element In The Array : ");
+        input=sc.nextInt();
+
+            //  for(int i=0;i<arr.length;i++){
+            //     System.out.print (" "+arr[i]);
+            //  }
     }
 }
