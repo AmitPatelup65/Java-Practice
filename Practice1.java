@@ -5,8 +5,10 @@ public class Practice1{
         int []res=new int [l];
         for(int i=0;i<arr.length;i++){
             res[i]=arr[i];
-            System.out.print(" "+arr[l-i-1] );
         }
-        System.out.println(10/3);
+        for(int i=0;i<arr.length;i++){
+          
+            System.out.print(" "+res[l-i-1] );
+        }
     }
 }
