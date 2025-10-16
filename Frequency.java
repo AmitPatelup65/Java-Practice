@@ -16,7 +16,6 @@ public class Frequency {
                 }
             }
             System.out.println(arr[i] + " -> " + count + " times");
-
         }
 
     }
