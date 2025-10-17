@@ -1,6 +1,5 @@
 
 public class Frequency {
-
     public static void main(String[] args) {
         int[] arr = {1, 2, 1, 2, 4, 5, 4, 3, 5,};
         boolean visited[] = new boolean[arr.length];
@@ -17,6 +16,5 @@ public class Frequency {
             }
             System.out.println(arr[i] + " -> " + count + " times");
         }
-
     }
 }
