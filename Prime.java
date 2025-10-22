@@ -7,9 +7,7 @@ public class Prime{
             if((arr[i]%1)==0 && (arr[i]%arr[i])==0){
                 count++;
             }
-        }
-      
-            System.out.print(count+" -> Primes");
-     
+        }     
+            System.out.print(count+" -> Primes");    
     }
 }
