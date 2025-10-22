@@ -8,6 +8,6 @@ public class Prime{
                 count++;
             }
         }     
-          System.out.print(count+" -> Primes");    
+          
     }
 }
