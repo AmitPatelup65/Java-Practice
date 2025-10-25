@@ -12,7 +12,7 @@ public class Prime {
                 isPrime = false;  // 1 aur negative numbers prime nahi hote
             } else {
                 for (int j = 2; j <= n / 2; j++) {
-                    if (n % j == 0) { // agar kisi se divide ho gaya
+                    if (n % j == 0) { 
                         isPrime = false;
                         break; 
                     }
