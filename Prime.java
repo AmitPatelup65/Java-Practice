@@ -6,10 +6,10 @@ public class Prime {
 
         for (int i = 0; i < arr.length; i++) {
             int n = arr[i];
-            boolean isPrime = true;  // assume karte hain prime hai
+            boolean isPrime = true; 
 
             if (n <= 1) {
-                isPrime = false;  // 1 aur negative numbers prime nahi hote
+                isPrime = false;  
             } else {
                 for (int j = 2; j <= n / 2; j++) {
                     if (n % j == 0) { 
