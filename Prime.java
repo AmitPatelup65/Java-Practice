@@ -1,4 +1,3 @@
-//[2, 4, 5, 7, 9] → 3 primes
 public class Prime {
     public static void main(String[] args) {
         int[] arr = {2, 4, 5, 7, 9};
@@ -6,15 +5,15 @@ public class Prime {
 
         for (int i = 0; i < arr.length; i++) {
             int n = arr[i];
-            boolean isPrime = true; 
+            boolean isPrime = true;  // assume karte hain prime hai
 
             if (n <= 1) {
-                isPrime = false;  
+                isPrime = false;  // 1 aur negative numbers prime nahi hote
             } else {
                 for (int j = 2; j <= n / 2; j++) {
-                    if (n % j == 0) { 
+                    if (n % j == 0) { // agar kisi se divide ho gaya
                         isPrime = false;
-                        break; 
+                        break; // aage check karne ki zarurat nahi
                     }
                 }
             }
@@ -26,3 +25,5 @@ public class Prime {
         System.out.println("Total prime numbers: " + count);
     }
 }
+
+
