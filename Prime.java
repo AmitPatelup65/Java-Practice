@@ -13,7 +13,7 @@ public class Prime {
                 for (int j = 2; j <= n / 2; j++) {
                     if (n % j == 0) { // agar kisi se divide ho gaya
                         isPrime = false;
-                        break; // aage check karne ki zarurat nahi
+                        break; 
                     }
                 }
             }
