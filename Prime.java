@@ -8,7 +8,7 @@ public class Prime {
             boolean isPrime = true;  // assume karte hain prime hai
 
             if (n <= 1) {
-                isPrime = false;  // 1 aur negative numbers prime nahi hote
+                isPrime = false;  
             } else {
                 for (int j = 2; j <= n / 2; j++) {
                     if (n % j == 0) { 
