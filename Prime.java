@@ -5,7 +5,7 @@ public class Prime {
 
         for (int i = 0; i < arr.length; i++) {
             int n = arr[i];
-            boolean isPrime = true;  // assume karte hain prime hai
+            boolean isPrime = true;  // assume karte hain prime
 
             if (n <= 1) {
                 isPrime = false;  
