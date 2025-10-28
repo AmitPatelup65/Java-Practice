@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public  class Charinput{
-    //character input in java 
+    //array character input in java 
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Eneter The Size Of An Array");
