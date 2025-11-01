@@ -20,7 +20,8 @@ public  class SecondMax{
             }
           else  if(arr[i]<max && arr[i]>secondmax ){
                 secondmax=arr[i];
-            }         
+            }      
+               
         }
         System.out.println("Maximum Value "+ max);
          System.out.println("Minimum Value "+ min);
