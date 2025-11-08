@@ -15,7 +15,6 @@ public class Palin {
             n = n / 10;
         }
         if (rev == check) {
-
            System.out.println("Palindrome");
         } else {
              System.out.println("Not Palindrome");
