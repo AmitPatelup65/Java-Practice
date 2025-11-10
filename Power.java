@@ -6,6 +6,6 @@ public class Power{
         for (int i = 0; i < b; i++) {
             power=power*a;
         }
-        System.out.println("Power of "+ power);
+        System.out.println("Power of a^b is -> "+ power);
     }
 }
