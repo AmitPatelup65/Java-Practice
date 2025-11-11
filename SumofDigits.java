@@ -1,6 +1,6 @@
 public class SumofDigits{
     public static void main(String[] args) {
-        int x=10;
+        int x=101;
         int sum=0;
         int a=0;
        while(x>0){
