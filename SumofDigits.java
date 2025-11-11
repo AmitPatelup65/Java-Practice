@@ -8,6 +8,6 @@ public class SumofDigits{
         sum=sum+a;
         x=x/10;
        }
-       System.out.print(sum);
+       System.out.print("The Sum Of Digit -> "+sum);
     }
 }
