@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Nprime{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Eneter The Number ->");
+        System.out.println("Eneter The Number ");
         int n=sc.nextInt();
         for(int i=2;i<=n;i++){
             boolean check =true;
