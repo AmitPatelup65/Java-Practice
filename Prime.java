@@ -7,7 +7,7 @@ public class Prime {
              return;
         }
         if(a==1){
-            System.out.println("Not Prime ");
+            System.out.println("Not Prime");
             return;
         }
        for(int i=3;i<=a/2;i++){
