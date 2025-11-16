@@ -3,7 +3,7 @@ public class Prime {
         int a=2;
         boolean check=true;
         if(a==2){
-             System.out.println("Prime "); 
+             System.out.println("Prime"); 
              return;
         }
         if(a==1){
