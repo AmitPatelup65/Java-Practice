@@ -6,8 +6,8 @@ public class Integer{
         Scanner sc =new Scanner(System.in);
         System.out.println("Enter The Number : ");
         double n=sc.nextDouble();
-        int x=(int)n;
-        if(n-x==0){
+      //  int x=(int)n;
+        if(n==(int)n){
             System.out.println("Integer");
         }
         else{
