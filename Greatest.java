@@ -24,6 +24,6 @@ public  class Greatest{
              else{
                 System.out.println("C is Greatest");
              }
-           // System.out.println((a>b)?(a>c ?a:c):(b>c?b:c));
+           System.out.println((a>b)?(a>c ?a:c):(b>c?b:c));
     }
 }
