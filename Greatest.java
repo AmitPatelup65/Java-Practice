@@ -19,10 +19,10 @@ public  class Greatest{
                 }
              }
              else if (b>c) {
-                 System.out.println("B is Greatest ");
+                 System.out.println("B is Greatest");
              }
              else{
-                System.out.println("C is Greatest ");
+                System.out.println("C is Greatest");
              }
            System.out.println((a>b)?(a>c ?a:c):(b>c?b:c));
     }
