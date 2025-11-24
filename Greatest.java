@@ -15,7 +15,7 @@ public  class Greatest{
                     System.out.println("A is Greatest ->");
                 }
                 else{
-                   System.out.println(" C is Greatest -> ");
+                   System.out.println("C is Greatest -> ");
                 }
              }
              else if (b>c) {
