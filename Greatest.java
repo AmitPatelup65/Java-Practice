@@ -12,7 +12,7 @@ public  class Greatest{
         int c=sc.nextInt();
              if(a>b){
                 if(a>c){
-                    System.out.println(" A is Greatest ->");
+                    System.out.println("A is Greatest ->");
                 }
                 else{
                    System.out.println(" C is Greatest -> ");
