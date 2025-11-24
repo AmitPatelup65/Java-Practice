@@ -22,7 +22,7 @@ public  class Greatest{
                  System.out.println("B is Greatest");
              }
              else{
-                System.out.println("C is Greatest ");
+                System.out.println("C is Greatest");
              }
            System.out.println((a>b)?(a>c ?a:c):(b>c?b:c));
     }
