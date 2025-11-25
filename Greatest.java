@@ -4,7 +4,7 @@ import java.util.Scanner;
 public  class Greatest{
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
-        System.out.println("Enter The 1st Number -> : ");
+        System.out.println("Enter The 1st Number: ");
         int a=sc.nextInt();
          System.out.println("Enter The 2nd Number -> : ");
         int b=sc.nextInt();
