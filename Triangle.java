@@ -11,7 +11,7 @@ public  class Triangle{
          System.out.println("Enter The 3rd Side Of Triangle");
         int c=sc.nextInt();
        if(a+b>c && b+c> a && a+c>b){
-        System.out.println("It Is Triangle ");
+        System.out.println("It Is Triangle");
        }
        else{
          System.out.println("It Is Not");
