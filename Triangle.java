@@ -14,7 +14,7 @@ public  class Triangle{
         System.out.println("It Is Triangle");
        }
        else{
-         System.out.println("It Is Not");
+         System.out.println("It Is Not ");
        }
     }
 }
