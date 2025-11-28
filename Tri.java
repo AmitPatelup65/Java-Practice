@@ -6,7 +6,7 @@ public class Tri{
             System.out.print(m+" ");
              m++; 
         }
-        System.out.println();
+        System.out.println( );
        }
    }
 }
