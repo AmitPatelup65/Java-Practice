@@ -23,7 +23,7 @@ public  class SecondMax{
             }
                                
         }
-        System.out.println("Maximum Value "+ max);
+        System.out.println("Maximum Value - "+ max);
          System.out.println("Minimum Value "+ min);
         System.out.println("Second Maximum Value "+ secondmax);
         System.out.println("Second Minimum Value "+ secondmin);
