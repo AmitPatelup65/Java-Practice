@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class SpCp{
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-         System.out.println("Enter The Cost Price :");
+         System.out.println("Enter The Cost Price : ");
         int  cp=sc.nextInt();
         System.out.println("Enter The Selling Price : ");
         int  sp=sc.nextInt();  
