@@ -2,7 +2,7 @@
 public class TwoSum {
 
     public static void main(String[] args) {
-        int[] arr = {2, 3, 6, 5};
+        int[] arr = {2, 7, 6, 5};
         int target = 9;
         int check = 1;
         for (int i = 0; i < arr.length; i++) {
