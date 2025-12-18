@@ -6,7 +6,7 @@ public class SpCp{
         Scanner sc =new Scanner(System.in);
          System.out.println("Enter The Cost Price : ");
         int  cp=sc.nextInt();
-        System.out.println("Enter  The Selling Price : ");
+        System.out.println("Enter The Selling Price : ");
         int  sp=sc.nextInt();  
         if(sp>cp){
             int x=sp-cp;
