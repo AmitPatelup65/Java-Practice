@@ -13,7 +13,7 @@ public class SpCp{
             System.out.println("Profit : "+(x/(double)cp)*100+"%");
         }
         else  if(sp<cp){
-            System.out.println("Loss : " +(cp/(double)sp)*100+"%");
+            System.out.println("Loss : "+(cp/(double)sp)*100+"%");
         }
           else if(sp==cp){
             System.out.println("No Profit No Loss ->");
