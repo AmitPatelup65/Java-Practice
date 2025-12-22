@@ -10,7 +10,7 @@ public class SpCp{
         int  sp=sc.nextInt();  
         if(sp>cp){
             int x=sp-cp;
-            System.out.println("Profit : "+(x/(double)cp)*100+"% ");
+            System.out.println("Profit : "+(x/(double)cp)*100+"%");
         }
         else  if(sp<cp){
             System.out.println("Loss : " +(cp/(double)sp)*100+"%");
