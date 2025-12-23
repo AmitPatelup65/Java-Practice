@@ -5,6 +5,6 @@ public class reverse{
           a=a+b;
           b=a-b;
           a=a-b;
-        System.out.print(a+""+b);
+        System.out.print(a+" "+b);
     }
 }
