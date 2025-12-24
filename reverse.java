@@ -1,6 +1,6 @@
 public class reverse{
     public static void main(String []args){
-        int a=24;
+        int a=23;
         int b=16;
           a=a+b;
           b=a-b;
